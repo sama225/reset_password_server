@@ -1,0 +1,17 @@
+{
+  "name": "vision-care-reset-server",
+  "version": "1.0.0",
+  "description": "Tiny server that resets a Firebase Authentication user's password after the app's own OTP verification, replacing the need for Firebase Cloud Functions / Blaze.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^13.6.0"
+  }
+}
